@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: LMS.WishListService
+server:
+  port: 8094
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka  
